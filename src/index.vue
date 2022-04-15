@@ -32,7 +32,7 @@
 </template>
 <script>
 export default {
-  name: 'easy-circular-progress',
+  name: 'easy-circular-progress2',
   props: {
     strokeWidth: {
       type: Number,
