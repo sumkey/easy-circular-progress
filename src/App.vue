@@ -53,7 +53,7 @@
 
 <script>
 import Progress from "./index.vue";
-
+console.log(Progress)
 export default {
   name: "app",
   components: {

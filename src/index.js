@@ -1,13 +1,13 @@
-import easyCircularProgress from "./index.vue";
+import easyCircularProgress2 from "./index.vue";
 
-const EasyCircularProgress = {
+const EasyCircularProgress2 = {
   install ( Vue ) {
-    Vue.component( easyCircularProgress.name, easyCircularProgress );
+    Vue.component( easyCircularProgress2.name, easyCircularProgress2 );
   },
 }
 
-export default EasyCircularProgress
+export default EasyCircularProgress2
 
 if ( typeof window !== 'undefined' && window.Vue ) {
-  window.Vue.use( EasyCircularProgress );
+  window.Vue.use( EasyCircularProgress2 );
 }
