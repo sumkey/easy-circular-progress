@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "private": false,
   "author": "sumkey",
-  "main": "dist/easy-circular-progress.umd.min.js",
+  "main": "dist/easy-circular-progress2.umd.min.js",
   "description": "easy circular progress component with counting effect",
   "scripts": {
     "serve": "vue-cli-service serve",
