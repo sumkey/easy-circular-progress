@@ -13,7 +13,7 @@
 ## Install
 
 ```
-npm install easy-circular-progress --save
+npm install easy-circular-progress2 --save
 ```
 
 ### Quick Start
