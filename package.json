@@ -1,8 +1,8 @@
 {
-  "name": "easy-circular-progress",
-  "version": "1.0.4",
+  "name": "easy-circular-progress2",
+  "version": "1.0.5",
   "private": false,
-  "author": "dreambo8563",
+  "author": "sumkey",
   "main": "dist/easy-circular-progress.umd.min.js",
   "description": "easy circular progress component with counting effect",
   "scripts": {
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dreambo8563/easy-circular-progress.git"
+    "url": "https://github.com/sumkey/easy-circular-progress.git"
   },
   "bugs": {
-    "url": "https://github.com/dreambo8563/easy-circular-progress/issues"
+    "url": "https://github.com/sumkey/easy-circular-progress/issues"
   },
   "license": "MIT",
   "files": [
