@@ -70,7 +70,7 @@ npm install easy-circular-progress2 --save
 </template>
 
 <script>
-import Progress from "easy-circular-progress";
+import Progress from "easy-circular-progress2";
 
 export default {
   name: "app",

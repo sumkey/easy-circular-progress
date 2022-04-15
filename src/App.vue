@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Progress value="16.88"></Progress>
+    <Progress value="1.08"></Progress>
+    <Progress value="1.008"></Progress>
+    <Progress value="16.98"></Progress>
     <Progress strokeColor="#FF00AA" value="16.88">
       <template v-slot:footer>
         <b>More Color</b>
