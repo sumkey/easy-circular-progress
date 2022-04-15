@@ -106,7 +106,7 @@ export default {
         }
         if (counter === innerNum) {
           // back to origin precision
-          this[className] = number;
+          this[className] = number.toString().replace("0.","");
           window.clearInterval(this[handlerName]);
         }
         counter++;
@@ -128,7 +128,7 @@ export default {
       let [int, dec] = v.toString().split(".");
 
       // fallback for NaN
-      [int, dec] = [Number(int), Number(dec)];
+      [int, dec] = [Number(int), Number(dec && dec.toString().indexOf("0") == 0 ? "0." + dec.toString() : dec)];
       this.increaseNumber(int, "int");
       this.increaseNumber(Number.isNaN(dec) ? 0 : dec, "dec");
     },
