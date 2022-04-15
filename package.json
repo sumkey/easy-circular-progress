@@ -1,6 +1,6 @@
 {
   "name": "easy-circular-progress2",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "private": false,
   "author": "sumkey",
   "main": "dist/easy-circular-progress2.umd.min.js",
